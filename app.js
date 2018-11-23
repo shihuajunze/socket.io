@@ -12,6 +12,7 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
+//缓存聊天记录
 let msgs = [];
 
 io.on('connection', function (socket) {
