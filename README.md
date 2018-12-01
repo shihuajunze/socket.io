@@ -4,7 +4,7 @@ or
 `cnpm install`
 
 # 启动
-npm start
+`npm start`
 
 # 访问
 链接上加上name参数，就是自己的name，然后就可以聊天了。
